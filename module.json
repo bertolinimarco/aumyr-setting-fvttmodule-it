@@ -1,66 +1,49 @@
 {
   "id": "aumyr-setting-fvttmodule-it",
-  "title": "Aumyr (setting) - Italiano",
-  "description": "Il mondo di Aumyr per FoundryVTT, in Italiano",
-  "version": "1.0.0",
+  "title": "Aumyr Setting (Italiano)",
+  "description": "Il modulo ufficiale di Aumyr, ambientazione systemless per giochi di ruolo, in italiano.",
   "authors": [
     {
       "name": "Marco Bertolini",
-      "url": "https://www.aumyr.world",
       "email": "info@marcobertolini.net",
-      "discord": "Marco B.#3791"
+      "flags": {}
+    },
+    {
+      "name": "^ and stick",
+      "flags": {}
     }
   ],
+  "url": "",
+  "version": "1.0.0",
   "compatibility": {
-    "minimum": 9,
-    "verified": 10
+    "minimum": "10",
+    "verified": "10.285"
   },
+  "scripts": [
+    "lib/tagify/tagify.min.js",
+    "scripts/bundle.min.js"
+  ],
+  "styles": [
+    "styles/token-action-hud.css",
+    "/styles/lib/tagify/tagify.css"
+  ],
   "relationships": {
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
+      },
+     
+    ],
+    "requires": [
+      {
+        "id": "color-picker",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
-  "packs": [
-    {
-      "name": "personaggi",
-      "label": "Personaggi",
-      "type": "Actor",
-      "system": "dnd5e",
-      "path": "/packs/creatures.db",
-      "entity": "Actor",
-      "module": "nomemodulo"
-    },
-    {
-      "name": "mappe",
-      "label": "Mappe",
-      "type": "Scene",
-      "path": "/packs/scenes.db",
-      "entity": "Scene",
-      "module": "nomemodulo"
-    },
-    {
-      "name": "oggetti-magici",
-      "label": "Oggetti Magici",
-      "type": "Item",
-      "system": "dnd5e",
-      "path": "/packs/items.db",
-      "entity": "Item",
-      "module": "nomemodulo"
-    },
-    {
-      "name": "avventure",
-      "label": "Avventure",
-      "type": "Adventure",
-      "system": "dnd5e",
-      "path": "/packs/journal-entries.db",
-      "entity": "Adventure",
-      "module": "nomemodulo"
-    }
-  ],
-  "url": "",
-  "manifest": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/blob/main/module.json",
-  "download": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/blob/main/aumyr-setting-fvttmodule-it.zip"
+  "manifest": "https://github.com/Drental/fvtt-tokenactionhud/releases/latest/download/module.json",
+  "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.5/module.zip"
 }
