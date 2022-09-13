@@ -1,0 +1,73 @@
+{
+  "id": "aumyr-setting-fvttmodule-it",
+  "title": "Aumyr (setting) - Italiano",
+  "description": "Il mondo di Aumyr per FoundryVTT, in Italiano",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Marco Bertolini",
+      "url": "https://www.aumyr.world",
+      "email": "info@marcobertolini.net",
+      "discord": "Marco B.#3791"
+    }
+  ],
+  "compatibility": {
+    "minimum": 9,
+    "verified": 10,
+    "maximum": 10
+  },
+  "packs": [
+    {
+      "name": "module-creatures",
+      "label": "PNG",
+      "path": "./packs/creatures.db",
+      "entity": "Actor",
+      "type": "Actor"
+    },
+    {
+      "name": "module-items",
+      "label": "Oggetti",
+      "path": "./packs/items.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "module-scenes",
+      "label": "Scene",
+      "path": "./packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "module-journal-entries",
+      "label": "Voci del Diario",
+      "path": "./packs/journal-entries.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "module-macros",
+      "label": "Macros",
+      "path": "./packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "module-roll-tables",
+      "label": "Roll Tables",
+      "path": "./packs/roll-tables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    },
+    {
+      "name": "module-playlists",
+      "label": "Playlists",
+      "path": "./packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
