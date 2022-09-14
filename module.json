@@ -1,49 +1,75 @@
 {
-  "id": "aumyr-setting-fvttmodule-it",
-  "title": "Aumyr Setting (Italiano)",
-  "description": "Il modulo ufficiale di Aumyr, ambientazione systemless per giochi di ruolo, in italiano.",
+  "name": "aumyr-setting-fvttmodule-it",
+  "title": "Aumyr - Italiano",
+  "author": "Marco Bertolini",
+  "description": "Il modulo ufficiale di Aumyr in Italiano per D&D 5E con mappe, personaggi, idee e avventure",
+  "packs": [
+    {
+      "name": "personaggi",
+      "label": "Personaggi",
+      "type": "Actor",
+      "system": "dnd5e",
+      "path": "/packs/personaggi.db",
+      "entity": "Actor",
+      "module": "aumyr-italiano"
+    },
+    {
+      "name": "avventure",
+      "label": "Avventure",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "path": "/packs/avventure.db",
+      "entity": "Adventure",
+      "module": "aumyr-italiano"
+    },
+    {
+      "name": "oggetti",
+      "label": "Oggetti",
+      "type": "Item",
+      "system": "dnd5e",
+      "path": "/packs/oggetti.db",
+      "entity": "Item",
+      "module": "aumyr-italiano"
+    },
+    {
+      "name": "diario",
+      "label": "Diario",
+      "type": "JournalEntry",
+      "path": "/packs/diario.db",
+      "entity": "JournalEntry",
+      "module": "aumyr-italiano"
+    },
+    {
+      "name": "roll-tables",
+      "label": "Roll Tables",
+      "type": "RollTable",
+      "path": "/packs/roll-tables.db",
+      "entity": "RollTable",
+      "module": "aumyr-italiano"
+    },
+    {
+      "name": "mappe",
+      "label": "Mappe",
+      "type": "Scene",
+      "path": "/packs/mappe.db",
+      "entity": "Scene",
+      "module": "aumyr-italiano"
+    }
+  ],
+  "manifest": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/blob/main/module.json",
+  "download": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/blob/main/aumyr-setting-fvttmodule-it.zip",
+  "id": "aumyr-italiano",
   "authors": [
     {
       "name": "Marco Bertolini",
-      "email": "info@marcobertolini.net",
-      "flags": {}
-    },
-    {
-      "name": "^ and stick",
-      "flags": {}
+      "discord": "Marco Bertolini#0001"
     }
   ],
-  "url": "",
-  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "9",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.285"
+    "minimum": 9,
+    "verified": 10
   },
-  "scripts": [
-    "lib/tagify/tagify.min.js",
-    "scripts/bundle.min.js"
-  ],
-  "styles": [
-    "styles/token-action-hud.css",
-    "/styles/lib/tagify/tagify.css"
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      },
-     
-    ],
-    "requires": [
-      {
-        "id": "color-picker",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "manifest": "https://github.com/Drental/fvtt-tokenactionhud/releases/latest/download/module.json",
-  "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.5/module.zip"
+  "version": "1.0.0"
 }
