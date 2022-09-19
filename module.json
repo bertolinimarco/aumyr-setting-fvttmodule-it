@@ -1,48 +1,24 @@
 {
-    "title": "name",
-    "description": "desc",
-    "id": "modid",
-    "version": "1.0",
-    "authors": [
-      {
-        "name": "theripper93",
-        "email": "tsplab@gmail.com",
-        "url": "https://www.patreon.com/theripper93"
-      }
-    ],
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json"
-      }
-    ],
-    "scripts": [
-        "scripts/config.js",
-        "scripts/main.js",
-        "scripts/module.js"
-    ],
-    "esmodules": [
-    ],
-    "styles": [
-      "styles/module.css"
-    ],
-    "packs": [
-    ],
-    "url": "https://github.com/theripper93/Levels",
-    "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
-    "download": "https://github.com/theripper93/Levels/releases/download/0.9.7.3/module.zip",
-    "relationships": {
-      "requires": [
-        {
-          "id": "lib-wrapper",
-          "type": "module",
-          "compatibility": {}
-        }
-      ]
-    },
-    "compatibility": {
-      "minimum": "10",
-      "verified": "10"
+  "title": "Aumyr (Italiano)",
+  "description": "Il modulo ufficiale di Aumyr per FoundryVTT.",
+  "id": "aumyr-setting-fvttmodule-it",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "bertolinimarco",
+      "email": "info@marcobertolini.net",
+      "discord": "Marco B.#3791"
     }
+  ],
+  "scripts": ["scripts/config.js", "scripts/main.js", "scripts/module.js"],
+  "esmodules": [],
+  "styles": ["styles/module.css"],
+  "packs": [],
+  "url": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it",
+  "manifest": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/releases/latest/download/module.json",
+  "download": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/releases/download/0.9.7.3/module.zip",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
   }
+}
