@@ -2,7 +2,7 @@
   "title": "Aumyr (Italiano)",
   "description": "Il modulo ufficiale di Aumyr per FoundryVTT.",
   "id": "aumyr-setting-fvttmodule-it",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     {
       "name": "bertolinimarco",
@@ -16,7 +16,7 @@
   "packs": [],
   "url": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it",
   "manifest": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/releases/latest/download/module.json",
-  "download": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/releases/download/0.9.7.3/module.zip",
+  "download": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
