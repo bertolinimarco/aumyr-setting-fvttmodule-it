@@ -10,9 +10,9 @@
       "discord": "Marco B.#3791"
     }
   ],
-  "scripts": ["scripts/config.js", "scripts/main.js", "scripts/module.js"],
+  "scripts": [],
   "esmodules": [],
-  "styles": ["styles/module.css"],
+  "styles": [],
   "packs": [],
   "url": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it",
   "manifest": "https://github.com/bertolinimarco/aumyr-setting-fvttmodule-it/releases/latest/download/module.json",
